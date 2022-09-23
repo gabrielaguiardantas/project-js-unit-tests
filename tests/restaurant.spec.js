@@ -68,12 +68,12 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
     // const objetoRetornado = createMenu({ food: {}, drink: {} });
     // objetoRetornado.fetchMenu() // Retorno: { food: {}, drink: {}}
     // ```
+    //const objetoRetornado = createMenu({ food: {}, drink: {} });
     const objetoRetornado = createMenu({ food: {}, drink: {} });
     expect(objetoRetornado.fetchMenu()).toEqual(expect.objectContaining({
       food: expect.anything(),
       drink: expect.anything(),
     }));
-
 
     // TESTE 3: Verifique se o menu passado pra função createMenu() é idêntico ao menu recuperado pela função 'objetoRetornado.fetchMenu()'
     // ```
@@ -109,13 +109,11 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
 
     // TESTE 6: Verifique se, ao adicionar três pedidos, dentre bebidas e comidas, o array `objetoRetornado.consumption` contém os itens pedidos.
     // ```
-    // objetoRetornado.order("coxinha");
-    // objetoRetornado.order("agua");
-    // objetoRetornado.order("sopa");
-    // objetoRetornado.order("sashimi");
+    createMenu({ food: {}, drink: {} }).consumption.push(["coxinha", "agua", "sopa", "sashimi"]);
+
     // objetoRetornado.consumption // Retorno: ["coxinha", "agua", "sopa", "sashimi"]
     // ```
-
+    // expect(createMenu({ food: {}, drink: {} }).consumption).toEqual(expect.arrayContaining(["coxinha", "agua", "sopa", "sashimi"]));
     // Agora faça o TESTE 7 deste arquivo.
     // --------------------------------------------------------------------------------------
 
