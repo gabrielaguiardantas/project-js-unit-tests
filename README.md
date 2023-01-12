@@ -1,6 +1,6 @@
 # Projeto JS - Unit Tests #
 
-Quinto projeto do curso de desenvolvimento Web da Trybe. Neste projeto aprendemos a fazer testes unitários em uma aplicação pronta. Utilizei Javascript para execução do mesmo.
+Quinto projeto do curso de desenvolvimento Web da Trybe. Neste projeto aprendi a fazer testes unitários em uma aplicação pronta. Utilizei Javascript para execução do mesmo.
 
 ## Demonstração: ## 
 
