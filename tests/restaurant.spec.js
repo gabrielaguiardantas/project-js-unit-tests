@@ -109,7 +109,11 @@ describe('10 - Implemente a função `createMenu`, bem como seus casos de teste'
 
     // TESTE 6: Verifique se, ao adicionar três pedidos, dentre bebidas e comidas, o array `objetoRetornado.consumption` contém os itens pedidos.
     // ```
+
     createMenu({ food: {}, drink: {} }).consumption.push(["coxinha", "agua", "sopa", "sashimi"]);
+    
+    // expect(objetoRetornado.consumption.push(["coxinha", "agua", "sopa", "sashimi"])).toEqual(expect.arrayContaining(objetoRetornado.consumption["coxinha", "agua", "sopa", "sashimi"]));
+    
 
     // objetoRetornado.consumption // Retorno: ["coxinha", "agua", "sopa", "sashimi"]
     // ```
