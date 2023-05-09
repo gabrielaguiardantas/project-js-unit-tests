@@ -8,3 +8,4 @@ Quinto projeto do curso de desenvolvimento Web da Trybe. Neste projeto aprendi a
 
 ## Features implementadas: ##
 
+![features-project4](https://github.com/gabrielaguiardantas/project-js-unit-tests/assets/110852595/5fd486c9-507f-42de-b2ee-929371158b90)
